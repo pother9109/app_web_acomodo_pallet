@@ -45,8 +45,8 @@ else:
 st.sidebar.markdown("<h2 style='color:#F7941D;'>Configuración del Pallet</h2>", unsafe_allow_html=True)
 pallet_length = st.sidebar.number_input("Largo del pallet (cm)", value=120.0, format="%.2f")
 pallet_width = st.sidebar.number_input("Ancho del pallet (cm)", value=100.0, format="%.2f")
-pallet_max_height = st.sidebar.number_input("Altura máxima (cm)", value=135.0, format="%.2f")
-pallet_base_height = st.sidebar.number_input("Altura del polín (cm)", value=12.0, format="%.2f")
+pallet_max_height = st.sidebar.number_input("Altura máxima (cm)", value=130.0, format="%.2f")
+pallet_base_height = st.sidebar.number_input("Altura del polín (cm)", value=14.5, format="%.2f")
 pallet_effective_height = pallet_max_height - pallet_base_height
 pallet_max_weight = st.sidebar.number_input("Peso máximo (kg)", value=1250.0, format="%.2f")
 
